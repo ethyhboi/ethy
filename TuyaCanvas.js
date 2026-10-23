@@ -32,6 +32,7 @@ export function DiscoveryService() {
     const lamps = [
         { id: "tuya-canvas-sebs-lamp", name: "Sebs lamp", lampIndex: 0 },
         { id: "tuya-canvas-bedside-lamp", name: "Sebs bedside lamp", lampIndex: 1 },
+        { id: "tuya-canvas-sebs-roof-bulb", name: "Sebs roof bulb", lampIndex: 2 },
     ];
 
     this.Initialize = function() {
@@ -43,7 +44,7 @@ export function DiscoveryService() {
             }
             service.announceController(existing);
         }
-        service.log("Two Tuya Canvas lamps announced.");
+        service.log("Three Tuya Canvas lamps announced.");
     };
 
     this.Update = function() {};

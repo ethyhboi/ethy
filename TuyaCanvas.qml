@@ -9,7 +9,7 @@ Item {
             wrapMode: Text.WordWrap
             color: theme.primarytextcolor
             font.pixelSize: 16
-            text: "Two independent Tuya canvas lamps are available: Sebs lamp and Sebs bedside lamp. Start the local SignalRGB Tuya Canvas Bridge window before using them."
+            text: "Three independent Tuya canvas lamps are available: Sebs lamp, Sebs bedside lamp, and Sebs roof bulb. Start the local SignalRGB Tuya Canvas Bridge window before using them."
         }
         Text {
             color: theme.primarytextcolor
